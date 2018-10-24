@@ -10,15 +10,19 @@ AC_CONFIG_MACRO_DIRS([m4])
 
 # Checks for programs.
 AC_PROG_CC
+gl_EARLY
 
 # Checks for libraries.
 
 # Checks for header files.
 
+# Initialize Gnulib.
+gl_INIT
+
 # Checks for typedefs, structures, and compiler characteristics.
 
 # Checks for library functions.
 
-AC_CONFIG_FILES([Makefile])
+AC_CONFIG_FILES([Makefile lib/Makefile])
 
 AC_OUTPUT

@@ -1,0 +1,11 @@
+/Makefile.am
+/arg-nonnull.h
+/base64.c
+/base64.h
+/c++defs.h
+/memchr.c
+/memchr.valgrind
+/stdbool.in.h
+/stddef.in.h
+/string.in.h
+/warn-on-use.h

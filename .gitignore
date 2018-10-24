@@ -1,3 +1,8 @@
+# Project specific files
+src/.deps/
+src/.dirstamp
+src/b64
+
 # Prerequisites 
 *.d 
  
@@ -50,3 +55,16 @@ modules.order
 Module.symvers 
 Mkfile.old 
 dkms.conf 
+
+# Common Autootools droppings
+autom4te.cache/
+config.*
+stamp-h1
+Makefile.in
+Makefile
+missing
+compile
+configure
+depcomp
+aclocal.m4
+install-sh
