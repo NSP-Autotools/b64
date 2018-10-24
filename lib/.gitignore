@@ -1,6 +1,7 @@
 /Makefile.am
 /arg-nonnull.h
 /base64.c
+/string.h
 /base64.h
 /c++defs.h
 /memchr.c
@@ -9,3 +10,4 @@
 /stddef.in.h
 /string.in.h
 /warn-on-use.h
+.deps/
